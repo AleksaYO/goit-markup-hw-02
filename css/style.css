@@ -56,11 +56,14 @@
 .header-adress-link:focus {
   color: #2196f3;
 }
+.current {
+  color: #2196f3;
+}
 /* --------------------------------------------- Герой --------------------------------------------- */
 .hero {
   background-color: #2f303a;
 }
-.hero-hone {
+.hero-h-one {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -85,12 +88,53 @@
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-color: #2196f3;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: ##212121;
+  background: ##f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: #f5f4fa;
+}
+.btn:hover {
+  background-color: #2196f3;
+  border-color: #2196f3;
+  color: #ffffff;
+}
+.btn:focus {
+  background-color: #2196f3;
+  border-color: #2196f3;
+  color: #ffffff;
 }
 /* --------------------------------------------- Чому ми? --------------------------------------------- */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .advantages-list {
   list-style: none;
 }
-.advantages-hthree {
+.advantages-h-three {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -113,7 +157,7 @@
 .about-list {
   list-style: none;
 }
-.about-htwo {
+.about-h-two {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -133,17 +177,17 @@
 .team-item {
   background: #ffffff;
 }
-.team-htwo {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-/* text-align: center; */
-letter-spacing: 0.03em;
-color: #212121;
+.team-h-two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-hthree {
+.team-h-three {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -190,7 +234,7 @@ color: #212121;
   color: #ffffff;
 }
 .map:hover {
-    color: #2196f3;
+  color: #2196f3;
 }
 .footer-adress-link {
   font-family: "Roboto";
@@ -202,5 +246,32 @@ color: #212121;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-adress-link:hover {
-    color: #2196f3;
+  color: #2196f3;
+}
+/* --------------------------------------------- Страница Портфолио --------------------------------------------- */
+.works {
+}
+.works-list {
+  list-style: none;
+}
+.works-h-two {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+.works-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
